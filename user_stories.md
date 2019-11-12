@@ -1,13 +1,9 @@
 -nouns = person
+
 -verb = use, release
 
 Objects  | Messages
 ------------- | -------------
 Person  |
-Bike  | r
+Bike  | working?
 DockingStation | release_bike
-
-Objects  | Messages
-------------- | -------------
-Person  |
-Bike  | functional_bike
