@@ -1,26 +1,26 @@
-##Boris Bikes
+## Boris Bikes
 
 This project contains the code for the Boris Bike challenge.
 TFL needs a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on).
 
-##Build Status
+## Build Status
 
 This project is a work in progress.
 
-##Code Style
+## Code Style
 
 -TDD
 -ODD
 
-##Tech used
+## Tech used
 
 -Ruby 2.6.3
 -Rspec
 
-##Code Example
+## Code Example
 
-##Tests
+## Tests
 
-##How to Use
+## How to Use
 
 This program can be used at terminal.
