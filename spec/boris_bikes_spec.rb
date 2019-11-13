@@ -1,5 +1,8 @@
 require "boris_bikes"
 
+# the shared examples were written for the method which takes health points off bikes
+# with each return. method not written yet.
+
 RSpec.shared_examples "bike examples" do
   # mock bike to test class methods
   let(:test_bike1) { Bike.new }
@@ -8,6 +11,7 @@ RSpec.shared_examples "bike examples" do
   before(:each) do
     # in the instance of low health:
     test_bike1.health = 3
+    # in the instance of good health:
     test_bike2.health = 8
   end
 end
@@ -33,7 +37,7 @@ RSpec.describe Customer do
 end
 
 RSpec.describe DockingStation do
-
+  # mock variables for docking stations with default and bespoke values
   let(:default_docking_station) { DockingStation.new }
   let(:bespoke_docking_station) { DockingStation.new(20) }
 
