@@ -1,7 +1,7 @@
 ## Boris Bikes
 
-This project contains the code for the Boris Bike challenge.
-TFL needs a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on).
+This project contains the code for the Boris Bike challenge - a program emulating all the docking stations, bikes, and infrastructure. This was developed as a pair programming exercise over the course of one week with several colleagues, the goal being getting comfortable using Ruby
+TFL needs a program that will 
 
 ## Build Status
 
