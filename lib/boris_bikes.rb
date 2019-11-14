@@ -1,3 +1,5 @@
+#added a comment
+
 class Customer
   attr_reader :budget, :rented_bike, :rental_time
 
